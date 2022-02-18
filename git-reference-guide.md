@@ -55,3 +55,4 @@ Note: Some GNU/Linux distributions do not have the newest version of Git. To ins
 
 ## Other
 `git config --list` - show git config settings, such as user.name and user.email.
+`git rm --cached [filename]` - remove [filename] from staging area.
