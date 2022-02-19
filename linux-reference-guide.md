@@ -29,6 +29,7 @@
 `tail -n {#} {file}` - output the last {#} lines of {file}
 
 ## Process Management
+`exec bash` - replace the current shell process with a new instance of bash. for other shells, you can use `exec $SHELL`.\
 `ps` - display currently active processes\
 `top` - display all running processes\
 `jobs` - display status of jobs and job_id\
