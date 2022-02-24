@@ -56,7 +56,8 @@ Note: Some GNU/Linux distributions do not have the newest version of Git. To ins
 ## Other
 `git config --list` - show git config settings, such as user.name and user.email.\
 `git rm --cached [filename]` - remove [filename] from staging area.\
-`git branch` - list all of the branches in your repository. this is synonymous with `git branch --list`.\
+`git branch` - list all of the branches in your repository. this is synonymous with `git branch --list`. use `-a` to list local and remote branches.\
 `git branch [branch-name]` - create a new branch called [branch-name]. this does not check out the new branch.\
 `git checkout [branch-name]` - point HEAD to the tip of [branch-name].\
-`git checkout -b [branch-name]` - shorthand for `git branch [branch-name]` and `git checkout [branch-name]`. creates and checks out [branch-name]. the `-b` option is a convenience flag that tells Git to run git branch before running git checkout [branch-name].
+`git checkout -b [branch-name]` - shorthand for `git branch [branch-name]` and `git checkout [branch-name]`. creates and checks out [branch-name]. the `-b` option is a convenience flag that tells Git to run git branch before running git checkout [branch-name].\
+`git pull origin [branch-name]` - pull an existing branch [branch-name].
