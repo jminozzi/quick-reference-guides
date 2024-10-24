@@ -142,7 +142,7 @@ In One Command:
 `apt-get install -f` - fix broken dependencies (try to use apt install instead, which automatically installs dependencies)\
 `/etc/apt/sources.list` (file) - APT repository list
 
-### RHEL / Fedora
+### RHEL / Fedora / CentOS
 `dnf check-update` - check for updates\
 `dnf upgrade` - upgrades all packages installed\
 `dnf install {pkg}` - install {pkg}\
@@ -154,7 +154,7 @@ In One Command:
 `dnf repolist` - DNF repository list\
 `/etc/yum.repos.d/` (file) - DNF respository list
 
-#### RHEL / Fedora Kernel Management
+#### RHEL / Fedora / CentOS Kernel Management
 `rpm -q kernel` - check installed kernels\
 `dnf install yum-utils` - install yum-utils\
 `package-cleanup --oldkernels --count=2` - package-cleanup set count as how many old kernels you want left\
